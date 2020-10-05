@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <script src="./assets/script/jQuery.min.js"></script>
+    <script src="https://use.fontawesome.com/71b591b142.js"></script>
+  </head>
+
+  <body>
+    <section class="container flex">
+      <div class="app">
+        <h1 class="app__title">
+          To-do List <i class="fa fa-plus-circle" aria-hidden="true"></i>
+        </h1>
+        <input
+          class="app__input"
+          type="text"
+          placeholder="Add item"
+          maxlength="40"
+          required
+        />
+        <ul class="list">
+          <li class="list__item">
+            <span><i class="fa fa-trash" aria-hidden="true"></i></span>Do This
+          </li>
+          <li class="list__item">
+            <span><i class="fa fa-trash" aria-hidden="true"></i></span>Do This
+          </li>
+          <li class="list__item">
+            <span><i class="fa fa-trash" aria-hidden="true"></i></span>Do This
+          </li>
+        </ul>
+      </div>
+    </section>
+    <script src="./assets/script/script.js"></script>
+  </body>
+</html>
